@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Sign In</title>
+    <script src="https://unpkg.com/vue@2.6.11/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <div id="app">
+
+
+        <!-- TODO show errors from form validation -->
+
+
+        <div class="card add-student m-2 p-2">
+            <h4 class="card-title">Add new student</h4>
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <!-- TODO v-model newStudentName -->
+                <input id="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="starID">Star ID</label>
+                <!-- TODO v-model newStarID -->
+                <input id="starID" class="form-control">
+            </div>
+            <!-- TODO v-on:click event handler -->
+            <button class="btn btn-primary">Add</button>
+        </div>
+
+        <div class="card student-list m-2 p-2">
+            <h4 class="card-title">Student List</h4>
+            <div id="student-table">
+                <table class="table">
+                    <tr>
+                        <th>Name</th>
+                        <th>StarID</th>
+                        <th>Present?</th>
+                    </tr>
+
+                   <!-- TODO create table rows 
+                   Each row will have a checkbox, bound to the app's data 
+                   When the checkbox is checked/unchecked, the student will be signed in/out -->
+
+                </table>
+            </div>
+        </div>
+
+
+        <!-- TODO show a message when student arrives or leaves  -->
+
+
+    </div>
+
+    <script>
+
+
+        // TODO Vue app     
+
+
+    </script>
+
+</body>
+
+</html>
+
+
+                

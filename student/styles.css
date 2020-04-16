@@ -1,0 +1,16 @@
+#student-table {
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.present {
+    color: gray;
+    font-style: italic;
+}
+
+.absent {
+    color: black;
+    font-weight: bold;
+}
+
+
