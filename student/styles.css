@@ -3,6 +3,10 @@
     overflow: scroll;
 }
 
+th, tr {
+    width: 33%;
+}
+
 .present {
     color: gray;
     font-style: italic;
