@@ -21,14 +21,15 @@
             <h2 class="card-header">Add Records</h2>
             <div class="card-body">
                
-                <div class="alert alert-danger" v-show="errors && errors.length > 0">
-                    <li v-for="error in errors">{{ error }}</li>
+                <!-- TODO use v-show to show this if there are validation errors -->
+                <div class="alert alert-danger">
+                    <!-- TODO show a list of validation errors from form -->
                 </div>
 
                 <div class="form-group">
                     <!-- TODO display name of activity in the label -->
                     <!-- TODO use a filter to display the name of activity in lowercase -->
-                    <label class="form-label" for="date">What date did you {{ activity | lowercase }}?</label>
+                    <label class="form-label" for="date">What date did you <!-- TODO activity name, in lowercase --> </label>
                     <!-- TODO use v-model to connect this input to dateString data -->
                     <input id="date" class="form-control" type="date">
                     <small id="date-help" class="form-text text-muted">
