@@ -3,8 +3,8 @@
 
 <head>
     <title>Practice Tracker</title>
-    <script src="https://unpkg.com/vue@2.6.11/dist/vue.js"></script>
-
+    <script src="https://unpkg.com/vue@next"></script>
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" type="text/css">
@@ -28,8 +28,7 @@
 
                 <div class="form-group">
                     <!-- TODO display name of activity in the label -->
-                    <!-- TODO use a filter to display the name of activity in lowercase -->
-                    <label class="form-label" for="date">What date did you <!-- TODO activity name, in lowercase --> </label>
+                    <label class="form-label" for="date">What date did you do this activity?</label>
                     <!-- TODO use v-model to connect this input to dateString data -->
                     <input id="date" class="form-control" type="date">
                     <small id="date-help" class="form-text text-muted">
